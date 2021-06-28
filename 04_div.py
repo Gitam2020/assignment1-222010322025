@@ -5,10 +5,10 @@ import unittest
 
 
 def div(n1, n2):
-    pass
+    return n1 / n2
+    # DO NOT TOUCH THE BELOW CODE
 
 
-# DO NOT TOUCH THE BELOW CODE
 class TestDiv(unittest.TestCase):
 
     def test_01(self):
